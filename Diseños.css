@@ -1,0 +1,33 @@
+body.vet
+{
+background:Thistle;
+}
+body.ini
+{
+background:Lightcyan;
+}
+header.head1
+{
+background:Cadetblue;
+}
+h1.set
+{
+font-style:normal;
+font-size: 45px;
+}
+#lbl1
+{
+font-size: 20px;
+}
+#tt
+{
+font-style: Oblique;
+}
+#go
+{
+font-family:"Times New Roman", Times, serif;
+font-style: Normal;
+font-size: 18px;
+background: Lavender;
+color: Black;
+}
