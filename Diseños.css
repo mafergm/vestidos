@@ -10,10 +10,40 @@ header.head1
 {
 background:Cadetblue;
 }
+header.head2
+{
+background:Purple;
+}
 h1.set
 {
 font-style:normal;
 font-size: 45px;
+}
+h1.dress
+{
+font-size: 40px;
+color: White;
+}
+h2.weding
+{
+font-family: Fantasy;
+font-size: 30px;
+color: Indigo;
+}
+h2.page
+{
+font-family: "Times New Roman", Times, serif;
+font-style: Italic;
+}
+p.art
+{
+font-style: Oblique;
+}
+p.fit
+{
+font-family: Blippo;
+background: Purple;
+color: White;
 }
 #lbl1
 {
