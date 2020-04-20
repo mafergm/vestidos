@@ -64,3 +64,9 @@ font-size: 18px;
 background: Lavender;
 color: Black;
 }
+#fondo
+{
+padding: 10px;
+border-style: Groove;
+border-width: 5px;
+}
