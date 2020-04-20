@@ -23,6 +23,8 @@ h1.dress
 {
 font-size: 40px;
 color: White;
+text-shadow: 5px 2px 4px Black;
+letter-spacing: 10px;
 }
 h2.weding
 {
