@@ -14,7 +14,6 @@ text-align:center;
 }
 section
 {
-
 width:calc(80%-80px);
 float: left;
 min-height:400px;
@@ -45,29 +44,29 @@ aside
 #vestido1
 {
 padding:10px;
-background: white;
+background: lightgoldenrodyellow;
 }
 
 #vestido2
 {
 padding:10px;
-background: white;
+background: papayawhip;
 }
 
 #vestido3
 {
 padding:10px;
-background: white;
+background: lightgoldenrodyellow;
 }
 
 #vestido4
 {
 padding:10px;
-background: white;
+background: papayawhip;
 }
 
 #vestido5
 {
 padding:10px;
-background: white;
+background: lightgoldenrodyellow;
 }
