@@ -1,7 +1,7 @@
 
 <?php
 
-$usuario=array("Dara", "Fernanda", "Carol", "Carlos", "Niurka");
+$usuario=array("Dara", "Fernanda", "Carol", "carlos", "Niurka");
 $contra=array(123,456,789,321,654);
 
 $estado=false;
@@ -27,7 +27,7 @@ if($estado)
 
 else
 {
- header("location:ventas.html");
+ header("location:index.html");
 }
 
 ?>

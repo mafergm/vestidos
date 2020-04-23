@@ -6,19 +6,12 @@ body.ini
 {
 background:Lightcyan;
 }
-header.head1
-{
-background:Cadetblue;
-}
+
 header.head2
 {
 background:Purple;
 }
-h1.set
-{
-font-style:normal;
-font-size: 45px;
-}
+
 h1.dress
 {
 font-size: 40px;
@@ -26,17 +19,9 @@ color: White;
 text-shadow: 5px 2px 4px Black;
 letter-spacing: 10px;
 }
-h2.weding
-{
-font-family: Fantasy;
-font-size: 30px;
-color: Indigo;
-text-decoration: Underline;
-}
-h2.page
-{
-font-family: "Times New Roman", Times, serif;
-font-style: Italic;
+
+
+
 }
 p.art
 {
@@ -56,14 +41,7 @@ font-size: 20px;
 {
 font-style: Oblique;
 }
-#go
-{
-font-family:"Times New Roman", Times, serif;
-font-style: Normal;
-font-size: 18px;
-background: Lavender;
-color: Black;
-}
+
 #fondo
 {
 padding: 10px;

@@ -1,0 +1,56 @@
+*
+{
+margin:0px;
+padding:0px;
+font-family: Century Gothic, Georgia;
+
+}
+
+header.head1
+{
+height:115px;
+ width:1000px;
+background: black;
+color: white;
+border-bottom: 2px dashed white;
+padding:30px;
+}
+
+body
+{
+background: Thistle;
+}
+section
+{
+width:960px;
+background:white;
+padding:50px;
+}
+
+section div form label
+{
+color:black;
+padding-top:50px;
+}
+.limpiar
+{
+ clear:both;
+}
+
+#contenido
+{
+padding-top:100px;
+width:1000px;
+margin: 0px auto;
+
+}
+
+#go
+{
+font-family:Century Gothic, Georgia;
+font-size: 18px;
+background: white;
+color: Black;
+height: 45px;
+width:80px;
+}

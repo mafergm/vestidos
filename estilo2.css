@@ -1,0 +1,73 @@
+#tdo
+{
+width:1000px;
+margin: 0px auto;
+}
+
+
+
+nav
+{
+float:left;
+padding-left:300px;
+text-align:center;
+}
+section
+{
+
+width:calc(80%-80px);
+float: left;
+min-height:400px;
+}
+article
+{
+width:700px;
+text-align:center;
+}
+
+.limpiar
+{
+ clear:both;
+}
+
+aside
+{
+ color:white;
+ float:right;
+ padding-top:10px;
+ padding-left:20px;
+ padding-right:20px;
+ background:purple;
+ width:25%;
+ min-height:555px;
+}
+
+#vestido1
+{
+padding:10px;
+background: white;
+}
+
+#vestido2
+{
+padding:10px;
+background: white;
+}
+
+#vestido3
+{
+padding:10px;
+background: white;
+}
+
+#vestido4
+{
+padding:10px;
+background: white;
+}
+
+#vestido5
+{
+padding:10px;
+background: white;
+}
