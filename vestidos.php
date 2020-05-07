@@ -1,33 +1,25 @@
 
 <?php
 
-$usuario=array("Dara", "Fernanda", "Carol", "carlos", "Niurka");
-$contra=array(123,456,789,321,654);
+    include('usuarios.php')
 
-$estado=false;
+    $vdr = new validar;
 
-$nombre=$_POST['nombre'];
-$password=$_POST['contraseña'];
+    $usuarios=$_POST['usuario'];
+    $password=$_POST['contraseña'];
 
-$variab=count($usuario);
+    $result=$vdr->validars($usuarios, $password);
 
-for($m=0; $m<$variab; $m++)
-{
- if($usuario[$m]==$nombre && $contra[$m]==$password)
- {
-  $estado=true;
- }
+    var_dump($result);
 
-}
+    if($result->num_rows == 1)
+    {
+     header("location:ventas.html");
+    }
 
-if($estado)
-{
- header("location:ventas.html");
-}
-
-else
-{
- header("location:index.html");
-}
+    else
+    {
+     header("location:index.html");
+    }
 
 ?>
