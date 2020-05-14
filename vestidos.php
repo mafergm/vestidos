@@ -1,25 +1,22 @@
-
 <?php
+	include('inicio.php');
+	$us=new Conexion();
 
-    include('usuarios.php')
+	$usuario=$_POST['usuario'];
+	$contraseña=$_POST['contraseña'];
 
-    $vdr = new validar;
+    $query = "SELECT * FROM `usuarios` WHERE `Usuario`='$usuario' AND `Contraseña`='$contra';";
+	$use=$us->query($query);
+    $us->close();
 
-    $usuarios=$_POST['usuario'];
-    $password=$_POST['contraseña'];
+	if($use->num_rows==1)
+	{
+		header("location: ventas.html");
+	}
 
-    $result=$vdr->validars($usuarios, $password);
-
-    var_dump($result);
-
-    if($result->num_rows == 1)
-    {
-     header("location:ventas.html");
-    }
-
-    else
-    {
-     header("location:index.html");
-    }
+	else
+	{
+		header("location: index.html");
+	}
 
 ?>
