@@ -4,9 +4,14 @@
 	
 		 public function __construct()
 		 {
-			 parent::__construct('localhost', 'root', '', 'vestidossistema');
+		     $servidor="localhost";
+		     $basedatos="vestidos";
+		     $usuario="root";
+		     $contraseña="";
+
+			 parent::__construct($servidor, $usuario , $contraseña, $basedatos);
 			 $this->query("SET NAMES 'utf8';");
-			 $this->connect_errno ? die('Error') : $error="Conectado";
+			 $this->connect_errno ? die("Error") : $error="Conectado a" .$basedatos;
 			 unset($error);
 		 }
 	}

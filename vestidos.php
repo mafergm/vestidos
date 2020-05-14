@@ -1,17 +1,18 @@
 <?php
-	include('inicio.php');
-	$us=new Conexion();
+	include('vald.php');
+	
+	$val =new valuser();
 
-	$usuario=$_POST['usuario'];
-	$contraseña=$_POST['contraseña'];
+	$Usuario=$_POST['Usuario'];
+	$Contraseña=$_POST['Contraseña'];
 
-    $query = "SELECT * FROM `usuarios` WHERE `Usuario`='$usuario' AND `Contraseña`='$contra';";
-	$use=$us->query($query);
-    $us->close();
+    $resultado=$val-> validarus($Usuario, $Contraseña);
 
-	if($use->num_rows==1)
+	var_dump($resultado);
+
+	if($resultado->num_rows == 1)
 	{
-		header("location: ventas.html");
+		header("location:ventas.html");
 	}
 
 	else
