@@ -11,7 +11,7 @@
 
 	if($final->num_rows==1)
 	{
-		header("location: ventas.html");
+		header("location: contenido.php");
 	}
 
 	else
