@@ -35,9 +35,9 @@
          
          ?>
          <table align = "center">
-         <tr>
-         <td><p>Carrito de Compras</p></td>
-         </tr>
+             <tr>
+             <td><p>Carrito de Compras</p></td>
+             </tr>
          <?php
           
              $con= new Conexion();
@@ -49,8 +49,13 @@
              {
                  echo "
                  <tr>
-                 <td><p>".$row['producto']."</p></td>
-                 <td><p>".$row['precio']."</p></td>
+                     <td>
+                        <p>".$row['producto']."</p>
+                     </td>
+
+                     <td>
+                        <p>".$row['precio']."</p>
+                     </td>
                  </tr>
                  ";
              }
