@@ -5,9 +5,9 @@
 		public function vuser($usuario, $contra)
 		{
 		  $us = new Conexion();
-		  $q= "SELECT * FROM `tabla` WHERE `Usuario`='daracat' AND `Contraseña`='123';";
+		  $q= "SELECT * FROM `tabla` WHERE `Usuario`='$usuario' AND `Contraseña`='$contra';";
 	      $use=$us->query($q);
-		  $us->Close();
+		  $us->close();
 		  return $use;
 		}
 	}
