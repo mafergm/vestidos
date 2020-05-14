@@ -31,34 +31,35 @@
 
             $query="INSERT INTO `carro`(`Producto`, `Precio`) VALUES ('$producto', '$precio');";
             $consulta=$con->query($query);
-            $con->close;
-         }
-     ?>
-     <table align = "center">
-     <tr>
-     <td><p>Carrito de Compras</p></td>
-     </tr>
-     <?php
+            $con->close();
+         
+         ?>
+         <table align = "center">
+         <tr>
+         <td><p>Carrito de Compras</p></td>
+         </tr>
+         <?php
           
-         $con= new Conexion();
-         $query="SELECT * FROM `carro` WHERE 1;";
-         $pro=$con->query($query);
-         $con->close();
+             $con= new Conexion();
+             $query="SELECT * FROM `carro` WHERE 1;";
+             $pro=$con->query($query);
+             $con->close();
 
-         while($row=mysqli_fetch_assoc($pro))
-         {
-             echo "
-             <tr>
-             <td><p>".$row['producto']."</p></td>
-             <td><p>".$row['precio']."</p></td>
-             </tr>
-             ";
-         }
-
+             while($row=mysqli_fetch_assoc($pro))
+             {
+                 echo "
+                 <tr>
+                 <td><p>".$row['producto']."</p></td>
+                 <td><p>".$row['precio']."</p></td>
+                 </tr>
+                 ";
+             }
+             ?>
+          </table>
+             <?php
+          }
      ?>
 
-
- </table>
 
 <article>
 <p class="art"><strong>Dirección</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Próceres, 
