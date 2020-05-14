@@ -1,15 +1,15 @@
 <?php
-	include('inicio.php');
-	$us=new Conexion();
+	include('vald.php');
+	$v=new validar();
 
 	$usuario=$_POST['usuario'];
 	$contraseña=$_POST['contraseña'];
 
-    $query = "SELECT * FROM `usuarios` WHERE `Usuario`='$usuario' AND `Contraseña`='$contra';";
-	$use=$us->query($query);
-    $us->close();
+    $final=$v->vuser($usuario, $contraseña);
 
-	if($use->num_rows==1)
+	var_dump($final);
+
+	if($final->num_rows==1)
 	{
 		header("location: ventas.html");
 	}
