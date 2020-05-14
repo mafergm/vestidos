@@ -2,10 +2,10 @@
 	include('vald.php');
 	$v=new validar();
 
-	$usuario=$_POST['usuario'];
-	$contraseña=$_POST['contraseña'];
+	$Usuario=$_POST['Usuario'];
+	$Contraseña=$_POST['Contraseña'];
 
-    $final=$v->vuser($usuario, $contraseña);
+    $final=$v->vuser($Usuario, $Contraseña);
 
 	var_dump($final);
 
