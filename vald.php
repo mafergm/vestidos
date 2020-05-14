@@ -1,15 +1,14 @@
 <?php
 	include('inicio.php');
-	
 	class validar
 	{
-		public function valuser($usuario, $contraseña)
+		public function vuser($usuario, $contra)
 		{
-		$user = new Conexion();
-		$q="SELECT * FROM `compras` WHERE 'Usuario'='$usuario' AND 'Contraseña'='$contraseña';";
-		$usuario=$user->query($q)
-		$user->close();
-		return $usuario;
+		  $us = new Conexion();
+		  $q= "SELECT * FROM `tabla` WHERE `Usuario`='$usuario' AND `Contraseña`='$contra';";
+	      $use=$us->query($q);
+		  $us->close();
+		  return $use;
 		}
 	}
 

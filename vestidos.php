@@ -1,23 +1,23 @@
 <?php
 	include('vald.php');
-	
-	$val =new valuser();
+	$v=new validar();
 
-	$Usuario=$_POST['Usuario'];
-	$Contraseña=$_POST['Contraseña'];
+	$usuario=$_POST['usuario'];
+	$contraseña=$_POST['contraseña'];
 
-    $resultado=$val-> validarus($Usuario, $Contraseña);
+    $final=$v->vuser($usuario, $contraseña);
 
-	var_dump($resultado);
+	var_dump($final);
 
-	if($resultado->num_rows == 1)
+	if($final->num_rows==1)
 	{
-		header("location:ventas.html");
+		header("location: contenido.php");
 	}
 
 	else
 	{
 		header("location: index.html");
+		
 	}
 
 ?>
