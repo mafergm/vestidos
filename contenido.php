@@ -25,9 +25,9 @@
 
 
 <article>
-<p class="art"><strong>Dirección</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Próceres, 
-Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sábado 08:30 A 19:00 Horas Domingo
-12:00 A 18:00 Horas<br /><strong>Teléfono</strong> +502 2505 3000</p>
+<p class="art"><strong>Direccion</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Proceres, 
+Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 Horas Domingo
+12:00 A 18:00 Horas<br /><strong>Telefono</strong> +502 2505 3000</p>
 </article>
 
  <hr />
@@ -108,7 +108,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sábado 08:30 A 19:00 H
 <br /><br />
 
 <aside align="center">
-<h2 class="page">Visita la siguiente página para más vestidos de novia</h2>
+<h2 class="page">Visita la siguiente pagina para mas vestidos de novia</h2>
 <a  href="http://www.blessingsco.com/boda"><strong>BLESSINGS CO</strong></a>
 <br /><br />
 <img id ="fondo" src="aside.jpg" width="220px" height="300px" alt=""/>
