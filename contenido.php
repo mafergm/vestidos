@@ -1,8 +1,11 @@
-<html>
+<!doctype html>
 
 <head>
+
 <link rel="stylesheet" type="text/css" href="Diseños.css" />
 <link rel="stylesheet" type="text/css" href="estilo2.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Vestidos</title>
 </head>
 
@@ -20,14 +23,22 @@
 
  <div class = "limpiar"></div>
 
-    
+
+<article>
+<p class="art"><strong>Dirección</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Próceres, 
+Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sábado 08:30 A 19:00 Horas Domingo
+12:00 A 18:00 Horas<br /><strong>Teléfono</strong> +502 2505 3000</p>
+</article>
+
+ <hr />
+        <br />
      <?php
-         if(isset($_GET['producto']))
+         if(isset($_GET['Producto']))
          {
             include ('inicio.php');
             $con= new Conexion();
-            $producto=$_GET['producto'];
-            $precio=$_GET['precio'];
+            $producto=$_GET['Producto'];
+            $precio=$_GET['Precio'];
 
             $query="INSERT INTO `carro`(`Producto`, `Precio`) VALUES ('$producto', '$precio');";
             $consulta=$con->query($query);
@@ -36,7 +47,7 @@
          ?>
          <table align = "center">
              <tr>
-             <td><p>Carrito de Compras</p></td>
+             <td><p><strong><h1>Carrito de Compras</h1></strong></p></td>
              </tr>
          <?php
           
@@ -50,11 +61,11 @@
                  echo "
                  <tr>
                      <td>
-                        <p>".$row['producto']."</p>
+                        <p>".$row['Producto']."</p>
                      </td>
 
                      <td>
-                        <p>".$row['precio']."</p>
+                        <p>".$row['Precio']."</p>
                      </td>
                  </tr>
                  ";
@@ -64,36 +75,31 @@
              <?php
           }
      ?>
-
-
-<article>
-<p class="art"><strong>Dirección</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Próceres, 
-Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sábado 08:30 A 19:00 Horas Domingo
-12:00 A 18:00 Horas<br /><strong>Teléfono</strong> +502 2505 3000</p>
-</article>
+     <hr />
+        <br />
 
 <section>
 
 <table>
 <tr align="center">
 <td id="vestido1"><img src="1.jpg" width="180px" height="300px" alt=""/><p><strong>Precio</strong> $350<br />
-<strong>Marca</strong> Maggie Sottero</p><p><a href="?producto= Maggie Sottero Dress&precio=350">Agregar al carrito</a></p></td>
+<strong>Marca</strong> Maggie Sottero</p><p><a href="?Producto= Maggie Sottero Dress&Precio=350">Agregar al carrito</a></p></td>
 
 <td id="vestido2"><img  src="2.jpg" width="220px" height="300px"alt=""/><p><strong>Precio</strong> $400<br />
-<strong>Marca</strong> Morilee</p><p><a href="?producto=Morilee Dress&precio=400">Agregar al carrito</a></td>
+<strong>Marca</strong> Morilee</p><p><a href="?Producto=Morilee Dress&Precio=400">Agregar al carrito</a></td>
 
 <td id="vestido3"><img src="3.jpg" width="180px" height="300px"alt=""/><p><strong>Precio</strong> $450<br />
-<strong>Marca</strong> Mon Cherri Bridals</p><p><a href="?producto=Mon Cherri Bridals Dress&precio=450">Agregar al carrito</a></td>
+<strong>Marca</strong> Mon Cherri Bridals</p><p><a href="?Producto=Mon Cherri Bridals Dress&Precio=450">Agregar al carrito</a></td>
 </tr>
 </table>
 
 <table>
 <tr>
 <td id="vestido4"><img src="4.jpg" width="200px" height="300px"alt=""/><p><strong>Precio</strong> $700<br />
-<strong>Marca</strong> Sophia Tolli</p><p><a href="?producto=Sophia Tolli&precio=700">Agregar al carrito</a></td>
+<strong>Marca</strong> Sophia Tolli</p><p><a href="?Producto=Sophia Tolli&Precio=700">Agregar al carrito</a></td>
 
 <td id="vestido5"><img src="5.jpeg" width="200px" height="300px"alt=""/><p><strong>Precio</strong> $750<br />
-<strong>Marca</strong> Allure Bridals</p><p><a href="?producto=Allure Bridals&precio=750">Agregar al carrito</a></td>
+<strong>Marca</strong> Allure Bridals</p><p><a href="?Producto=Allure Bridals&Precio=750">Agregar al carrito</a></td>
 </tr>
 </table>
 
@@ -109,7 +115,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sábado 08:30 A 19:00 H
 </aside>
 
  <div class = "limpiar"></div>
-
+  <hr />
 <footer align="center">
 <p class="fit">Dara Catú & Fernanda García</p>
 </footer>
