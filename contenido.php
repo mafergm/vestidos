@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="estilo2.css" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <title>Vestidos</title>
 </head>
 
@@ -17,18 +18,21 @@
 </header>
 </div>
 
+
 <nav>
 <a href="index.html">Regresar a Inicio</a>
 </nav>
 
+
  <div class = "limpiar"></div>
 
-
+ <div id="cco" align="center">
 <article>
 <p class="art"><strong>Direccion</strong> 4ta Avenida 18-30 Zona 10, Esquina Con Boulevard Los Proceres, 
 Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 Horas Domingo
 12:00 A 18:00 Horas<br /><strong>Telefono</strong> +502 2505 3000</p>
 </article>
+</div>
 
  <hr />
         <br />
@@ -111,13 +115,13 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
 <h2 class="page">Visita la siguiente pagina para mas vestidos de novia</h2>
 <a  href="http://www.blessingsco.com/boda"><strong>BLESSINGS CO</strong></a>
 <br /><br />
-<img id ="fondo" src="aside.jpg" width="220px" height="300px" alt=""/>
+<img id ="fondo" src="aside.jpg" width="210px" height="250px" alt=""/>
 </aside>
 
  <div class = "limpiar"></div>
   <hr />
 <footer align="center">
-<p class="fit">Dara Catú & Fernanda García</p>
+<p class="fit">Dara Catu & Fernanda Garcia</p>
 </footer>
 
 </div>
