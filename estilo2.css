@@ -41,32 +41,7 @@ aside
  min-height:555px;
 }
 
-#vestido1
+body
 {
-padding:10px;
-background: lightgoldenrodyellow;
-}
-
-#vestido2
-{
-padding:10px;
-background: papayawhip;
-}
-
-#vestido3
-{
-padding:10px;
-background: lightgoldenrodyellow;
-}
-
-#vestido4
-{
-padding:10px;
-background: papayawhip;
-}
-
-#vestido5
-{
-padding:10px;
-background: lightgoldenrodyellow;
+    
 }

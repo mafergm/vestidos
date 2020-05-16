@@ -82,6 +82,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
      <hr />
         <br />
 
+      
 <section>
 
 <div class="row row-cols-1 row-cols-md-2">
@@ -136,6 +137,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
     </div>
   </div>
 </div>
+
 
 </section>
 
