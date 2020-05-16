@@ -23,7 +23,7 @@ background: Paleturquoise;
 section
 {
 width:960px;
-background:white;
+background: white;
 padding:50px;
 }
 
@@ -53,4 +53,9 @@ background: white;
 color: Black;
 height: 45px;
 width:80px;
+}
+
+div.card-body
+{
+background: purple;
 }
