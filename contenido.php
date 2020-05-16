@@ -18,12 +18,6 @@
 </header>
 </div>
 
-
-<nav>
-<a href="index.html">Regresar a Inicio</a>
-</nav>
-
-
  <div class = "limpiar"></div>
 
  <div id="cco" align="center">
@@ -59,7 +53,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
              $query="SELECT * FROM `carro` WHERE 1;";
              $pro=$con->query($query);
              $con->close();
-
+             $t=0;
              while($row=mysqli_fetch_assoc($pro))
              {
                  echo "
@@ -73,11 +67,41 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
                      </td>
                  </tr>
                  ";
+                 $t = $row['Precio'] + $t;
              }
+             echo"<tr><td><h4>Total $".$t."</h4></td></tr>";
              ?>
           </table>
+          <table>
+        <tr><td align = "left"><h4><a href="?VACIAR">Comprar</a></h4></td>
+        </tr>
+         <tr>
+         <td align = "center"><h4><a href= "?NO">No comprar</a></h4></td></tr>
+          
+         </table>
              <?php
           }
+           $regresar = "<h4><a href = index.html>Salir</a></h4>";
+        if(isset($_GET['VACIAR']))
+        {
+                include ('inicio.php');
+                $con= new Conexion();
+                $query="DELETE FROM `carro` WHERE 1;";
+                $pro=$con->query($query);
+                $con->close();
+                echo$regresar;
+               
+        }
+        
+        else if(isset($_GET['NO']))
+        {
+                include ('inicio.php');
+                $con= new Conexion();
+                $query="DELETE FROM `carro` WHERE 1;";
+                $pro=$con->query($query);
+                $con->close();
+                echo$regresar;
+         }
      ?>
      <hr />
         <br />
@@ -143,12 +167,12 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
 
 <br /><br />
 
-<aside align="center">
+<section align = "center">
 <h2 class="page">Visita la siguiente pagina para mas vestidos de novia</h2>
 <a  href="http://www.blessingsco.com/boda"><strong>BLESSINGS CO</strong></a>
 <br /><br />
 <img id ="fondo" src="aside.jpg" width="210px" height="250px" alt=""/>
-</aside>
+</section>
 
  <div class = "limpiar"></div>
   <hr />
