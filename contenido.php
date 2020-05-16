@@ -84,48 +84,56 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
 
 <section>
 
-<div class="card" style="width: 19rem;">
-  <img src="1.jpg"  width="300px" height="400px" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Vestido de Boda</h5>
-    <p class="card-text"><strong>Precio</strong> $350<br /> <strong>Marca</strong> Maggie Sottero</p>
-    <a href="?Producto= Maggie Sottero Dress&Precio=350" class="btn btn-primary">Agregar al carrito</a>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card" align="center">
+      <img src="1.jpg" width="300px" height="400px" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vestido de Boda</h5>
+        <p class="card-text"><strong>Precio</strong> $350<br /> <strong>Marca</strong> Maggie Sottero</p>
+        <a href="?Producto= Maggie Sottero Dress&Precio=350" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="card" style="left: 19rem;">
-  <img src="2.jpg"  width="300px" height="400px" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Vestido de Boda</h5>
-    <p class="card-text"><strong>Precio</strong> $400<br /> <strong>Marca</strong> Morilee</p>
-    <a href="?Producto=Morilee Dress&Precio=400" class="btn btn-primary">Agregar al carrito</a>
+  <div class="col mb-4">
+    <div class="card" align="center">
+      <img src="2.jpg" width="300px" height="400px" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vestido de Boda</h5>
+        <p class="card-text"><strong>Precio</strong> $400<br /> <strong>Marca</strong> Morilee</p>
+         <a href="?Producto=Morilee Dress&Precio=400" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="card" style="width: 19rem;">
-  <img src="3.jpg"  width="300px" height="400px" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Vestido de Boda</h5>
-    <p class="card-text"><strong>Precio</strong> $450<br /> <strong>Marca</strong> Mon Cherri Bridals</p>
-    <a href="?Producto=Mon Cherri Bridals Dress&Precio=450" class="btn btn-primary">Agregar al carrito</a>
+  <div class="col mb-4" align="center">
+    <div class="card">
+      <img src="3.jpg" width="300px" height="400px" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vestido de Boda</h5>
+        <p class="card-text"><strong>Precio</strong> $450<br /> <strong>Marca</strong> Mon Cherri Bridals</p>
+        <a href="?Producto=Mon Cherri Bridals Dress&Precio=450" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="card" style="left: 19rem;">
-  <img src="4.jpg"  width="300px" height="400px" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Vestido de Boda</h5>
-    <p class="card-text"><strong>Precio</strong> $700<br /> <strong>Marca</strong> Sophia Tolli</p>
-    <a href="?Producto=Sophia Tolli&Precio=700" class="btn btn-primary">Agregar al carrito</a>
+  <div class="col mb-4" align="center">
+    <div class="card">
+      <img src="4.jpg" width="300px" height="400px" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vestido de Boda</h5>
+        <p class="card-text"><strong>Precio</strong> $700<br /> <strong>Marca</strong> Sophia Tolli</p>
+        <a href="?Producto=Sophia Tolli&Precio=700" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="card" style="width: 19rem;">
-  <img src="5.jpeg"  width="300px" height="400px" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Vestido de Boda</h5>
-    <p class="card-text"><strong>Precio</strong> $750<br /> <strong>Marca</strong> Allure Bridals Tolli</p>
-    <a href="?Producto=Allure Bridals&Precio=750" class="btn btn-primary">Agregar al carrito</a>
+  <div class="col mb-4" align="center">
+    <div class="card">
+      <img src="5.jpeg" width="300px" height="400px" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vestido de Boda</h5>
+        <p class="card-text"><strong>Precio</strong> $750<br /> <strong>Marca</strong> Allure Bridals Tolli</p>
+        <a href="?Producto=Allure Bridals&Precio=750" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+    </div>
   </div>
 </div>
 
