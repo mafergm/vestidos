@@ -10,11 +10,12 @@
 <title>Vestidos</title>
 </head>
 
-<body class="vet">
+<body class="vet" style="background-color: lightgoldenrodyellow;">
+<div class="p-3 mb-2 bg-danger text-white"></div>
 <div id="tdo">
 <div id="contenido">
 <header class="head2" align="center">
-<h1 class="dress">VESTIDOS DE NOVIA</h1>
+<h1 class="dress" style="font-family:fantasy;">VESTIDOS DE NOVIA</h1>
 </header>
 </div>
 
@@ -108,7 +109,6 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
 
       
 <section>
-
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card" align="center">
@@ -117,7 +117,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
         <h5 class="card-title">Vestido de Boda</h5>
         <p class="card-text"><strong>Precio</strong> $350<br /> <strong>Marca</strong> Maggie Sottero</p>
         <a href="?Producto= Maggie Sottero Dress&Precio=350" class="btn btn-primary">Agregar al carrito</a>
-      </div>
+     </div>
     </div>
   </div>
   <div class="col mb-4">
@@ -163,12 +163,13 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
 </div>
 
 
+
 </section>
 
 <br /><br />
 
 <section align = "center">
-<h2 class="page">Visita la siguiente pagina para mas vestidos de novia</h2>
+<h2 class="page" style="font-family:courier, helvetica;">Visita la siguiente pagina para mas vestidos de novia</h2>
 <a  href="http://www.blessingsco.com/boda"><strong>BLESSINGS CO</strong></a>
 <br /><br />
 <img id ="fondo" src="aside.jpg" width="210px" height="250px" alt=""/>
@@ -177,6 +178,7 @@ Ciudad de Guatemala<br /><strong>Horario</strong> Lunes a Sabado 08:30 A 19:00 H
  <div class = "limpiar"></div>
   <hr />
 <footer align="center">
+<div class="p-3 mb-2 bg-danger text-white"></div>
 <p class="fit">Dara Catu & Fernanda Garcia</p>
 </footer>
 
